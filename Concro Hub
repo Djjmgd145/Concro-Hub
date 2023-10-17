@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("all script beta", "Ocean")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+Section:NewButton("Fly", "ButtonInfo", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-8031"))()
+
+    print("Clicked")
+end)
+local Tab = Window:NewTab("other script")
+local Section = Tab:NewSection("other script")
+Section:NewButton("Admin", "ButtonInfo", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Infinite-Yeild-8192"))()
+
+    print("Clicked")
+end)
+Section:NewButton("blade ball", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+
+    print("Clicked")
+end)
+Section:NewButton("Break in 1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/BreakIn", true))()
+
+    print("Clicked")
+end)
+Section:NewButton("Killer", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
+
+    print("Clicked")
+end)
