@@ -29,3 +29,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWa
 
     print("Clicked")
 end)
+Section:NewButton("Break in 2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+
+    print("Clicked")
+end)
