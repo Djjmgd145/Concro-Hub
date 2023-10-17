@@ -7,7 +7,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FLY-GUI-V3-
 
     print("Clicked")
 end)
-Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 local Tab = Window:NewTab("other script")
