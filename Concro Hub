@@ -37,6 +37,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScript
 
     print("Clicked")
 end)
+Section:NewButton("Blox Fruit", "ButtonInfo", function()
+loadstring(game:HttpGet"https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT_V2_.lua")()
+
+    print("Clicked")
+end)
+Section:NewButton("Doors", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/Main"))()
+
+    print("Clicked")
+end)
 local Tab = Window:NewTab("Setting")
 local Section = Tab:NewSection("Setting")
 Section:NewButton("rtx mode", "ButtonInfo", function()
@@ -124,6 +134,12 @@ _G.Settings = {
     ["Low Quality Parts"] = true -- Lower quality parts
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Credits")
+Section:NewButton("Made by Djjmgd", "ButtonInfo", function()
 
     print("Clicked")
 end)
