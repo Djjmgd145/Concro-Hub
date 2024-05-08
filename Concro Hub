@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Concro Hub Beta", "Ocean")
+local Window = Library.CreateLib("Concro Hub-Djjmgd", "Ocean")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
 Section:NewButton("Fly", "ButtonInfo", function()
@@ -10,8 +10,8 @@ end)
 Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
-local Tab = Window:NewTab("other script")
-local Section = Tab:NewSection("other script")
+local Tab = Window:NewTab("scripts")
+local Section = Tab:NewSection("scripts")
 Section:NewButton("Admin", "ButtonInfo", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Infinite-Yeild-8192"))()
 
@@ -44,6 +44,16 @@ loadstring(game:HttpGet"https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT
 end)
 Section:NewButton("Doors", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/Main"))()
+
+    print("Clicked")
+end)
+Section:NewButton("Bedwars", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/script/main/Coco_GodSploit_Config"))()
+
+    print("Clicked")
+end)
+Section:NewButton("Jailbreak", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/AutoRobV4Release"))()
 
     print("Clicked")
 end)
@@ -134,12 +144,6 @@ _G.Settings = {
     ["Low Quality Parts"] = true -- Lower quality parts
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
-
-    print("Clicked")
-end)
-local Tab = Window:NewTab("Credits")
-local Section = Tab:NewSection("Credits")
-Section:NewButton("Made by Djjmgd", "ButtonInfo", function()
 
     print("Clicked")
 end)
