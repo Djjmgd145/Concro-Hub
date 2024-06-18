@@ -43,7 +43,7 @@ loadstring(game:HttpGet"https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT
     print("Clicked")
 end)
 Section:NewButton("Doors", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/Main"))()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/R8QMbhzv"))()
 
     print("Clicked")
 end)
